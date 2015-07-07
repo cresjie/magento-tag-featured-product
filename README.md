@@ -6,6 +6,7 @@ Author: Cres Jie Labasano
 Email:  cresjie@gmail.com
 Description: display products(by tags) in a carousel
 Dependency: owlcarousel - http://owlcarousel.owlgraphic.com/
+df
 
 
 /***********************
