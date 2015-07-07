@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<S900_TagFeatured>
+
+			<version>1.0</version>
+		</S900_TagFeatured>
+	</modules>
+
+	<global>
+
+		<blocks>
+			<tagfeatured>
+				<class>S900_TagFeatured_Block</class>
+			</tagfeatured>
+		</blocks>
+
+	</global>
+
+	<frontend>
+		<layout>
+			<updates>
+				<tagfeatured>
+					<file>s900_tagfeatured.xml</file>
+				</tagfeatured>
+			</updates>
+		</layout>
+	</frontend>
+
+	<default>
+		<tagfeatured>
+			<general>
+				<number_of_items>6</number_of_items>
+				<autoplay>1</autoplay>
+				<autoplay_timeout>1000</autoplay_timeout>
+				<navigation_button>0</navigation_button>
+				<show_dots>1</show_dots>
+				<slide_by>1</slide_by>
+			</general>
+		</tagfeatured>
+
+	</default>
+</config>

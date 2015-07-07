@@ -1,0 +1,36 @@
+<?=$this->getChildHtml('tagfeatured_head')?>
+<script>
+	(function($){
+
+		$(function(){ //onready
+                $('.owl-carousel').owlCarousel({
+                    responsiveClass:true,
+                    nav:<?=$this->getGeneralConfig('navigation_button',true)?>,
+                    autoplay:<?=$this->getGeneralConfig('autoplay',true)?>,
+                    autoplayTimeout:<?=$this->getGeneralConfig('autoplay_timeout')?>,
+                    autoplayHoverPause:true,
+                    dots: <?=$this->getGeneralConfig('show_dots',true)?>,
+                    slideBy: <?=$this->getGeneralConfig('slide_by')?>
+                });
+         });
+
+	})(jQuery);
+
+</script>
+
+<div>
+	<div class="owl-carousel">
+	<?php
+		$productCollection = $this->getProductCollection();
+		foreach ( $productCollection as $product) :
+	?>	
+		<div>
+			<a href="<?=$product->getProductUrl()?>" title="<?=$this->stripTags($this->getImageLabel($product, 'small_image'), null, true)?>">
+				<img src="<?=$this->helper('catalog/image')->init($product, 'small_image')->resize(135)?>" alt="<?=$this->stripTags($this->getImageLabel($_product, 'small_image'), null, true)?>">	 
+			</a>
+		</div>
+		
+	<?php endforeach;?>
+
+	</div>
+</div>

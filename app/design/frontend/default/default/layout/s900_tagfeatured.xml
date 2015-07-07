@@ -1,0 +1,24 @@
+<layout>
+	
+	<default>
+		<block type="page/html_head" name="tagfeatured_head" as="tagfeatured_head" output="toHtml">
+			<reference name="head">
+				<action method="addCss"><stylesheet>css/tagfeatured/owl.carousel.css</stylesheet></action>
+				<action method="addCss"><stylesheet>css/tagfeatured/owl.theme.default.min.css</stylesheet></action>
+
+				<action method="addItem"><type>skin_js</type><script>js/jquery-1.11.3.min.js</script></action>
+				 <action method="addItem"><type>skin_js</type><script>js/tagfeatured/owl.carousel.min.js</script></action>
+				 <block type="core/text" name="jquery.noconflict">
+			        <action method="setText">
+			            <text><![CDATA[<script type="text/javascript">var $j = jQuery.noConflict();</script>]]>
+			            </text>
+			        </action>
+			    </block>
+			 </reference>
+		</block>
+
+		
+		
+	</default>
+
+</layout>

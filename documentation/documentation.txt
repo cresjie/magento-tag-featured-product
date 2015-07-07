@@ -1,6 +1,3 @@
-# magento-tag-featured-product
-Magento Tag Featured Product
-
 Name: Tag Featured Product
 Author: Cres Jie Labasano
 Email: cres@suite900.com, cresjie@gmail.com
@@ -43,4 +40,3 @@ NOTE:
 additional param:
 	limit => you can add this parameter in the block to override the number of items set in the admin configuration
 			e.g. {{block type="tagfeatured/tagfeatured" template="s900/tagfeatured.phtml" tagname="yourTag" limit=10}}
-

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<config>
+    <modules>
+        <S900_TagFeatured>
+            <active>true</active>
+            <codePool>local</codePool>
+        </S900_TagFeatured>
+    
+    </modules>
+
+</config>

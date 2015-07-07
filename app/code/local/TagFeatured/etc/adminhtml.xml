@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<config>
+  <acl>
+    <resources>
+      <all>
+
+        <title>Allow Everything</title>
+      </all>
+      <admin>
+        <children>
+          <system>
+            <children>
+              <config>
+                <children>
+                  <tagfeatured>
+                    <title>S900 - All Extensions </title>
+                    
+                  </tagfeatured>
+                  
+                </children>
+              </config>
+            </children>
+          </system>
+        </children>
+      </admin>
+    </resources>
+  </acl>
+</config>
