@@ -3,7 +3,7 @@ Magento Tag Featured Product
 
 Name: Tag Featured Product
 Author: Cres Jie Labasano
-Email: cres@suite900.com, cresjie@gmail.com
+Email:  cresjie@gmail.com
 Description: display products(by tags) in a carousel
 Dependency: owlcarousel - http://owlcarousel.owlgraphic.com/
 
