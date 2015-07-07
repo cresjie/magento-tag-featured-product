@@ -3,9 +3,12 @@ Magento Tag Featured Product
 
 Name: Tag Featured Product
 
-Author: Cres Jie Labasano
+Author: Cres Jie Labasan
+o
 Email:  cresjie@gmail.com
+
 Description: display products(by tags) in a carousel
+
 Dependency: owlcarousel - http://owlcarousel.owlgraphic.com/
 
 
@@ -13,6 +16,7 @@ Dependency: owlcarousel - http://owlcarousel.owlgraphic.com/
 /***********************
 		Installation
 ************************/
+
 1. Copy the directory "app" and "css" in your magento root directory
 -Since the latest magento doesn't support default/default fallback on theme
 2. copy everything in the package "app/design/frontend/default/default" into your current theme
@@ -22,6 +26,7 @@ Dependency: owlcarousel - http://owlcarousel.owlgraphic.com/
 /***********************
 		Configuration
 ************************/
+
  You can change the default configuration by following this steps
 
 1. Login to your magento admin page
